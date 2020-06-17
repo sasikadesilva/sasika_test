@@ -13,7 +13,7 @@ import {
     return(
         <View>
             <TextInput
-                        style={{ height: 35, padding : 5, borderColor: 'gray', borderWidth: 1, width : "100%" }}
+                        style={{ height: 35, padding : 5,fontSize : 15, borderColor: 'gray', borderWidth: 1, width : "100%" }}
                         keyboardType={props.keyboardType}
                         value = {props.value}
                         onChangeText = {props.onChangeText}
