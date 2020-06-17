@@ -9,7 +9,7 @@ import {
  
 } from 'react-native';
 
-
+import LoginView from "./LoginView"
 
 export default class SignIn extends Component{
 
@@ -17,6 +17,8 @@ export default class SignIn extends Component{
     return(
       <View style={Styles.container}>
           <Text style={{textAlign : 'center', fontSize : 20}}>SignIn</Text>
+
+          <LoginView />
       </View>
     )
   }
